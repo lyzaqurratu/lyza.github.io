@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Bell MT;
+  padding: 10px;
+  background: #ffffff;
+  background-image: url("expebackground.jpg");
+}
+
+@font-face{
+  font-family: myFont;
+  src:url('Home.ttf');
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(250, 243, 202);
+  background-image: url("");
+  background-size: cover;
+  text-align: center;
+  height: 48vh;
+  width: 96vw;
+  margin: 0 auto;
+}
+
+.header h1 {
+  font-size: 70px;
+  font-family: myFont;
+  color: rgb(71, 53, 37);
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:  #2a3350;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #dadada;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+picture {
+  width: 300px;
+  height: 300px;
+  float: right;
+}
+
+/* Create two equal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 50%;
+  background-color: #ffffff;
+  padding-left: 20px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 50%;
+  background-color: #ffffff;
+  padding-left: 20px;
+}
+
+.card1 {
+  background-image: url("edupaper.jpg");
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  width: 96vw;
+  height: 49vh;
+  text-align:left;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #f5eedf;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 50px) {
+  .leftcolumn, .rightcolumn {   
+    width: 50%;
+    padding: 0;
+  }
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #e7dac3;
+  margin-top: 20px;
+}
+
+video {
+  width: 40vw;
+  height: 60vh;
+}
+
+div.scroll-container {
+  background-color: #f5eedf;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;  
+  margin-bottom: 70px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Experience</h1>
+  <p style="color: rgb(68, 51, 32);"> Here are my experiences! Internships, activities & trips!</p>
+</div>
+
+<div class="topnav">
+  <a href="Aboutme.html"><b>About Me</b></a>
+  <a href="education.html"><b>Education</b></a>
+  <a href="experience.html"><b>Experiences</b></a>
+  <a href="Gallery.html"><b>Gallery</b></a>
+  <a href="Interface.html" style="float:right"><b>Home</b></a>
+</div>
+
+<div class="picture">
+  <div class="row">
+    <div class="card1">
+      <p></p>
+      <img src="expe.gif" width="200" height="200" style="float: right"/>
+      <h1><i>My Journey</i></h1>
+      <h3>here are some pictures of what I've experienced these past years...</h3>
+      <p>These last few years I've finished high school and continued my studies at UiTM Segamat. During my time studying here I've learned and accomplished many achievements.</p>
+      <p>In university I've met all kinds of people and even made some friends. I've also done my internship for almost 2 months and now I'm in my final year.</p>
+    </div>
+  </div>
+</div>
+
+<h2 style="text-align:center">University</h2>
+<div class="scroll-container">
+  <img src="uni.jpg">
+  <img src="uni2.jpg">
+  <img src="uni3.jpg">
+</div>
+
+<h2 style="text-align:center"> The Internship</h2>
+
+<div class="scroll-container">
+  <img src="intern.jpg">
+  <img src="intern1.jpg">
+  <img src="intern2.jpg">
+  <img src="intern3.jpg">
+</div>
+
+<h2 style="text-align:center">Green Pheonix Brass Band</h2>
+
+<div class="scroll-container">
+  <img src="expeband.jpg">
+  <img src="expeband2.jpg">
+</div>
+
+<p></p>
+<h2 style="text-align:center"> videos! \('-'\)</h2>
+<center><b><p>*the videos below are clips of brassband performance for LIBB*</p></b></center>
+
+<div class="row">
+  <div class="card">    
+    <video controls loop>
+      <source src="bandvid.mp4" type="video/mp4" >
+    </video>
+    <video controls loop>
+      <source src="bandvid2.mp4" type="video/mp4" >
+    </video> 
+  </div>
+</div>
+
+<center><img src="expe2.gif" width="200" height="200"></center>
+
+<div class="footer">
+  <h4>Contact</h4>
+</div>
+
+</body>
+</html>
+
+
+

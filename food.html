@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Bell MT;
+  padding: 10px;
+  background: #ffffff;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+@font-face{
+  font-family: myFont;
+  src:url('Redemption.ttf');
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(250, 243, 202);
+  color: rgb(71, 53, 37);
+}
+
+.header h1 {
+  font-size: 50px;
+  font-family: myFont;
+  color: rgb(71, 53, 37);
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #2a3350;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #dadada;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two equal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 50%;
+  background-color: #ffffff;
+  padding-left: 20px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 50%;
+  background-color: #ffffff;
+  padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #484b53;
+  padding: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 50px) {
+  .leftcolumn, .rightcolumn {   
+    width: 50%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.column {
+  float: left;
+  padding: 5px;
+}
+
+picture {
+  width: 300px;
+  height: 300px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h1>Favourite</h1>
+  <h1>Food and Drinks</h1>
+  <p></p>
+  </p><marquee><b> Lyz's Pick! </b></marquee><br>
+</div>
+
+<div class="topnav">
+  <a href="Aboutme.html"><b>About Me</b></a>
+  <a href="music.html"><b>Music</b></a>
+  <a href="Interface.html" style="float:right"><b>Home</b></a>
+</div>
+
+<p></p>
+
+<marquee direction="left">
+<div class="picture">
+  <div class="row">
+    <div class="column">
+    <div class="column">
+      <img src="pasta.jpg" alt="Pasta" height="200" weight="200">
+    </div>
+    <div class="column">
+      <img src="pizza.jpg" alt="Matcha" height="200" weight="200">
+    </div>
+    <div class="column">
+      <img src="naan.jpg" alt="Pizza" height="200" weight="200">
+    </div>
+    <div class="column">
+      <img src="ayamtan.jpg" alt="Naan" height="200" weight="200">
+    </div>
+    <div class="column">
+      <img src="lasagna.jpg" alt="Naan" height="200" weight="200">
+    </div>
+    <div class="column">
+      <img src="tteok.jpg" alt="Naan" height="200" weight="200">
+    </div>
+    <div class="column">
+      <img src="gimbap.jpg" alt="Naan" height="200" weight="200">
+    </div>
+    <div class="column">
+      <img src="corndog.jpg" alt="Naan" height="200" weight="200">
+    </div>
+    <div class="column">
+      <img src="dumpling.jpg" alt="Naan" height="200" weight="200">
+    </div>
+      </div>
+    </div>
+  </div>
+</marquee>
+
+<marquee direction="right">
+  <div class="picture">
+    <div class="row">
+      <div class="column">
+      <div class="column">
+        <img src="latte.jpg" alt="Pasta" height="200" weight="200">
+      </div>
+      <div class="column">
+        <img src="strwberry.jpg" alt="Matcha" height="200" weight="200">
+      </div>
+      <div class="column">
+        <img src="tea.jpg" alt="Pizza" height="200" weight="200">
+      </div>
+      <div class="column">
+        <img src="icelemontea.jpg" alt="Naan" height="200" weight="200">
+      </div>
+      <div class="column">
+        <img src="lemonade.jpg" alt="Naan" height="200" weight="200">
+      </div>
+      <div class="column">
+        <img src="banana.jpg" alt="Naan" height="200" weight="200">
+      </div>
+      <div class="column">
+        <img src="shortcake.jpg" alt="Naan" height="200" weight="200">
+      </div>
+      <div class="column">
+        <img src="tiramisu.jpg" alt="Naan" height="200" weight="200">
+      </div>
+      <div class="column">
+        <img src="icecream.jpg" alt="Naan" height="200" weight="200">
+      </div>
+        </div>
+      </div>
+    </div>
+  </marquee>
+
+
+  <p></p>
+  <p></p>
+  <p></p>
+
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+      <ul>
+        <h2>Food Food Food!</h2>
+        <li>Mom's Homemade TomYum</li>
+        <li>Pepperoni Pizza</li>
+        <li>Char Kway Teow</li>
+        <li>Chicken Buttermilk</li>
+      </ul>
+      </div>
+    </div>
+
+
+  <div class="row">
+    <div class="rightcolumn">
+      <div class="card">
+      <ul>
+        <h2>Drinks! Drinks! Drinks!</h2>
+        <li>Iced Lemon Tea</li>
+        <li>Hot Chocolate</li>
+        <li>Apple Juice</li>
+        <li>Strawberry Matcha</li>
+      </ul>
+      </div>
+    </div>
+  </div>
+
+<p></p>
+
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">    
+      <a href="https://www.youtube.com/@nyangsoop"><img src="utube.jpg" width="560" height="300" frameborder="0" allowfullscreen> </a>
+      <p>Click here to go to youtube channel!</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="rightcolumn">
+      <div class="card">
+      <iframe width="560" height="300" src="https://www.youtube.com/embed/2rqLiUE5p98?si=ejAr1oUULMuArGNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p>'nyangsoop' is my favourite channel to watch delicious food making videos.</p>
+      </div>
+    </div>
+  </div>
+
+  <p></p>
+
+  <img src="chefsnoopy.jpg" alt="Avatar" style="width:200px">
+
+</body>
+</html>
